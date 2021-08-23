@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>      <!-- Change It -->
+      <div class="changeit">
+        <input type="number" id="clc" value="25" />
+        <input type="submit" id="sub" value="Go" onclick="changeit()" />
+      </div>
+  <div class="parent">
+    <div id="comp" onclick="bluroff()">• PICOWORKERS •</div>
+    <div class="child_h">
+      <div class="copied"> COPIED !</div>
+      <div class="madewith"> MADE WITH <span onclick="blurun()">💙</span> BY ADITYA VASTE</div>
+
+      <div id="rdt" class="pulsate-bck childh childh1" onclick="make_block(this.id)">Reddit</div>
+      <div id="twr" class="childh childh2" onclick="make_block(this.id)">Twitter</div>
+      <div id="ytb" class="childh childh3" onclick="make_block(this.id)">Youtube</div>
+      <div id="csr" class="childh childh5" onclick="make_block(this.id)">Coinsniper</div>
+      <div id="ldn" class="childh childh4" onclick="make_block(this.id)">Telegram</div>
+
+    </div>
+    <div class="child_b">
+      <!--R E D D I T-->
+      <div class="rdt childb childb1">
+        <!--Reddit Username-->
+        <div class="rdt_unp">
+          <p id='uu01' class='rdt_un' onclick='delAdd(this.classList)'> Reddit Username</p>
+        </div>
+        <!--Reddit Shadowban-->
+        <div class="rdt_sbp">
+          <p id='uu01' class='rdt_sb' onclick='delAdd(this.classList)'> Reddit Shadowban</p>
+        </div>
+        <!--Reddit ProfileLink-->
+        <div class="rdt_pup">
+          <p id='uu01' class='rdt_pu' onclick='delAdd(this.classList)'> Reddit Profile URL</p>
+        </div>
+        <!--Reddit UpvoteLink-->
+        <div class="rdt_uup">
+          <p id='uu01' class='rdt_uu' onclick='delAdd(this.classList)'> Reddit Upvote URL</p>
+        </div>
+      </div>
+      <!-- T W I T T E R-->
+      <div class="twr childb childb2">
+        <!--Twitter Username-->
+        <div class="twr_unp">
+          <p id='uu01' class='twr_un' onclick='delAdd(this.classList)'> Twitter Username</p>
+        </div>
+        <!--Twitter URL-->
+        <div class="twr_pup">
+          <p id='uu01' class='twr_pu' onclick='delAdd(this.classList)'> Twitter Profile URL</p>
+        </div>
+        <!--Twitter Name-->
+        <div class="twr_nmp">
+          <p id='uu01' class='twr_nm' onclick='delAdd(this.classList)'> Twitter Name</p>
+        </div>
+        </div>
+      <div class="ytb childb childb3">
+        <!-- YOUTUBE--> 
+        <!--YouTube Username-->
+        <div class="ytb_unp">
+          <p id='uu01' class='ytb_un' onclick='delAdd(this.classList)'> Youtube Username</p>
+        </div>
+    <!--YouTube URL-->
+        <div class="ytb_cup">
+          <p id='uu01' class='ytb_cu' onclick='delAdd(this.classList)'> Youtube Channel URL</p>
+        </div>
+    <!--YouTube Email -->
+        <div class="ytb_cep">
+          <p id='uu01' class='ytb_ce' onclick='delAdd(this.classList)'> Youtube Channel Email</p>
+        </div>
+      </div>
+      <div class="csr childb childb5">
+        <!-- COINSNIPER--> 
+        <!--COINSNIPER Username-->
+        <div class="csr_unp">
+          <p id='uu01' class='csr_un' onclick='delAdd(this.classList)'> Coinsniper Username</p>
+        </div>
+        <!--COINSNIPER Eamil-->
+        <div class="csr_emp">
+          <p id='uu01' class='csr_em' onclick='delAdd(this.classList)'> Coinsniper Email</p>
+        </div>
+
+      </div>
+      <div class="ldn childb childb4">This Telegram</div>
+    </div>
+  </div>
+  <script src="main.js" type="text/javascript" charset="utf-8">
+  </script>
+</body>
+
+</html>
