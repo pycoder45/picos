@@ -39,16 +39,16 @@ function copy(dts) {
 myobj = {
   'rdt_un' : '( My Username = prior-rub-8480 )',
   'rdt_sb' : '( Message = prior-rub-8480 is not shadowbanned. )',
-  'rdt_pu' : '( My Profile URL = https://www.reddit.com/prior-rub-8480/ )',
-  'rdt_uu' : '( My Upvotes URL = https://www.reddit.com/prior-rub-8480/upvoted )',
-  'twr_un' : '( My Twitter Handel/Username = @VasteAditya )',
-  'twr_pu' : '( My Account URL = https://mobile.twitter.com/VasteAditya )',
-  'twr_nm' : '( My Twitter Name = Aditya Vaste )',
-  'ytb_un' : '( My Channel Name = Aditya Rocker )',
+  'rdt_pu' : '( My Profile URL = https://www.reddit.com/user/prior-rub-8480/ )',
+  'rdt_uu' : '( My Upvotes URL = https://www.reddit.com/user/prior-rub-8480/upvoted )',
+  'twr_un' : '( My Twitter Handel/Username = @Guru4593v )',
+  'twr_pu' : '( My Account URL = https://mobile.twitter.com/Guru4593v )',
+  'twr_nm' : '( My Twitter Name = Guruling Rokade )',
+  'ytb_un' : '( My Channel Name = Guruling Vaste )',
   'ytb_cu' : '( My Channel URL = https://youtube.com/channel/UCB1xWVhIPAX9_NtKDPHfOYg )',
-  'ytb_ce' : '( My Channel Email = manishawaste16@gmail.com  )',
-  'csr_un' : '( Coinsniper Username = Coding Bro )',
-  'csr_em' : '( Coinsniper Email = coding1bro@gmail.com )'
+  'ytb_ce' : '( My Channel Email = gurulingvaste@gmail.com  )',
+  'csr_un' : '( Coinsniper Username = Guruling Vaste )',
+  'csr_em' : '( Coinsniper Email = gurulingvaste@gmail.com )'
 }
 function delAdd(idcls) {
   audio = new Audio("sound.mp3");
@@ -103,11 +103,11 @@ function changeit() {
   myobj = {
     'rdt_un': '( My Username = prior-rub-8480 )',
     'rdt_sb': '( Message = prior-rub-8480 is not shadowbanned. )',
-    'rdt_pu': '( My Profile URL = https://www.reddit.com/prior-rub-8480/ )',
-    'rdt_uu': '( My Upvotes URL = https://www.reddit.com/prior-rub-8480/upvoted )',
-    'twr_un': '( My Twitter Handel/Username = @VasteAditya )',
-    'twr_pu': '( My Account URL = https://mobile.twitter.com/VasteAditya )',
-    'twr_nm': '( My Twitter Name = Aditya Vaste )',
+    'rdt_pu': '( My Profile URL = https://www.reddit.com/user/prior-rub-8480/ )',
+    'rdt_uu': '( My Upvotes URL = https://www.reddit.com/user/prior-rub-8480/upvoted )',
+    'twr_un': '( My Twitter Handel/Username = @Guru4593v )',
+    'twr_pu': '( My Account URL = https://mobile.twitter.com/Guru4593v )',
+    'twr_nm': '( My Twitter Name = Guruling Rokade )',
     'ytb_un': '( My Channel Name = Guruling Vaste )',
     'ytb_cu': '( My Channel URL = https://youtube.com/channel/UCyl8fQ7xPEtrR9XZGEvwIsA )',
     'ytb_ce': '( My Channel Email = gurulingvaste@gmail.com  )',
